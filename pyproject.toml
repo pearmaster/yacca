@@ -1,0 +1,20 @@
+
+[project]
+name = "yacca"
+version = "0.0.1"
+description = "Yet Another Configurable and Composable Asynchronous testing framework"
+authors = [
+    {name = "Jacob Brunson", email = "github@jacobbrunson.com"},
+]
+dependencies = [
+    "jacobs-json-schema>=0.4.2",
+    "ruamel-yaml>=0.17.32",
+    "pytest>=7.4.0",
+]
+requires-python = ">=3.10"
+readme = "README.md"
+license = {text = "MIT"}
+
+[build-system]
+requires = ["pdm-backend"]
+build-backend = "pdm.backend"
